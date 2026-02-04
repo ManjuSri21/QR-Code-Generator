@@ -1,7 +1,12 @@
 # QR Code Generator Web Application
 
-Description : A simple **QR Code Generator** built using **Python Flask** that allows users to generate scannable QR codes from user provided URLs.  
-When a link is entered, a QR code is generated instantly. Scanning the QR code opens the corresponding website.
+## 📄 Description
+
+- Flask-based QR Code Generator web application  
+- Generates QR codes from user-provided URLs  
+- Displays QR code instantly on the webpage  
+- Scanning the QR opens the corresponding website  
+- Simple and responsive UI using HTML and CSS  
 
 
 ## 🛠️ Tech Stack
@@ -22,6 +27,13 @@ The backend of this application is built using **Python Flask** and performs the
 
 
 ## 📦 Required Libraries
-Install the necessary libraries using:
+
+Install the required libraries using pip:
+
+- **Flask** – Web framework for backend development  
+- **qrcode** – Library for generating QR codes  
+- **Pillow** – Image processing library used by qrcode
+  
 ```bash
 pip install flask qrcode pillow
+

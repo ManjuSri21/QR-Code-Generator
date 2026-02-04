@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;  /* changed from height to min-height */
+    min-height: 100vh;  
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.406);
     text-align: center;
     width: 90%;
-    max-width: 400px;  /* limits width on large screens */
+    max-width: 400px;  
     box-sizing: border-box;
 }
 
